@@ -1,0 +1,66 @@
+# Ignore the bin and obj directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore the packages folder
+packages/
+
+# Ignore the .vs folder for Visual Studio
+.vs/
+
+# Ignore the IDE-specific files
+.idea/
+*.swp
+.vscode/
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore logs
+*.log
+
+# Ignore npm packages if using frontend with Node.js
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore publish output
+publish/
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore thumbnails on Windows
+[Tt]humbs.db
+
+# Ignore auto-generated files
+*.dbmdl
+*.opendb
+*.opensdf
+*.sdf
+*.cache
+
+# Ignore code coverage output
+coverage/
